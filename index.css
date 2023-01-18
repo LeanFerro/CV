@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(11, 39, 61);
+    
+}
+
+
+.padre {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.encabezado{
+    
+    margin:auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    background-color: rgb(171, 196, 231);
+    height: 100px;
+    
+}
+
+.foto{
+    
+    margin:-70px 50px auto;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.foto_perfil{
+    width: 100%;
+    }
+
+h1 {
+    font-size: 50px;
+    font-family: 'Gelasio', serif;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    width: 150px;
+    height: 170px;
+    border: 2px solid;
+    border-color: rgb(34, 62, 122);
+    
+    position: relative;
+    float: left;
+}
+
+.principal {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 720px;
+    height: 400px;
+    border: 2px solid rgb(34, 62, 122);
+    position: relative;
+    float: left;
+}
+
+.opcciones {
+    list-style: none;
+    padding: 0;
+    border: 1px solid rgb(34, 62, 122);
+}
+
+.lista {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(34, 62, 122);
+
+}
+
+a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+
+p {
+    color: #FFF;
+}
