@@ -5,15 +5,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="redes.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=p, initial-scale=1.0">
     <title>CV Leandro Ferro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
+    <header class="cabezap">
+        <div class="cabeza">
+            <ul class="redes">
+                <li class="facebook"><a href="#"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a></li>
+                <li class="twitter"><a href="#"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a></li>
+                <li class="instagram"><a href="#"><i class="fa fa-instagram fa-1x" aria-hidden="true"></i></a></li>
+                <li class="google"><a href="#"><i class="fa fa-google fa-1x" aria-hidden="true"></i></a></li>
+                <li class="whatsapp"><a href="#"><i class="fa fa-whatsapp fa-1x" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </header>
     <div class="padre">
-        <div class="encabezado">
-            <div class="nombre"><h1>Leandro Ferro</h1></div>
+        <div class="encabezado" id="encabe">
+            <div class="nombre"><h1>CURRICULUM VITAE</h1></div>
         </div>
             
         <div class="foto">
@@ -21,23 +34,42 @@
         </div>
         <div class="menu">
             <ul class="opcciones">
-                <li class="lista">
-                    <a href="index.html"><span class="menuitem">INICIO</span></a>
+                <li class="lista" id="lista1">
+                    <a href="index.html"><span class="menuitem" id="bot1">INICIO</span></a>
                 </li>
                 <li class="lista">
-                    <a href="experiencia.html"><span class="menuitem">EXPERIENCIA</span></a>
+                    <a href="experiencia.html"><span class="menuitem" id="bot2">EXPERIENCIA</span></a>
                 </li>
                 <li class="lista">
-                    <a href="educacion.html"><span class="menuitem">EDUCACION</span></a>
+                    <a href="educacion.html"><span class="menuitem" id="bot3">EDUCACION</span></a>
                 </li>
                 <li class="lista">
-                    <a href="contacto.html"><span class="menuitem">CONTACTO</span></a>
+                    <a href="contacto.html"><span class="menuitem" id="bot4">INFORMACION</span></a>
                 </li>
             </ul>
         </div>
-        <div class="principal">
-            <p>Aca esta mi Informacion Principal de mi CV</p>
+        <div class="principal1">
+            <div class="divtitulojs">
+                <p class="titulojs">Probando JavaScript</p>
+            </div>
+            <div class="div_bot_1">
+                <div class="div_boton" id="divbot1">
+                    <button type="button" class="boton" id="bot1">Cambiar</button>
+                </div>
+                <div class="div_boton" id="divbot2">
+                    <button type="button" class="boton" id="bot2">Cambiar</button>
+            </div>
+        </div>
+            <div class="div_bot_2">
+                <div class="div_boton" id="divbot3">
+                    <button type="button" class="boton" id="bot3">Cambiar</button>
+                </div>
+                <div class="div_boton" id="divbot4">
+                    <button type="button" class="boton" id="bot4">Cambiar</button>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="cambios.js"></script>
 </body>
 </html>
