@@ -157,22 +157,17 @@ h2 {
     height: 100%;
     border: 1px solid rgb(171, 196, 231);
     float: left;
-    
-    
- 
 }
 
 .div_bot_1 {
     width: 100%;
     height: 45%;
-    border: 1px solid red;
-    
+  
 }
 
 .div_bot_2 {
     width: 100%;
     height: 45%;
-    border: 1px solid red;
 }
 
 .principal1 {  
@@ -192,6 +187,7 @@ h2 {
 
 .divtitulojs {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .pie {
@@ -199,4 +195,17 @@ h2 {
     position: relative;
     width: 100%;
     border: 1px solid rgb(171, 196, 231);
+    
+}
+
+#bot2 {
+    display: none;
+}
+
+#bot3 {
+    display: none;
+}
+
+#bot4 {
+    display: none;
 }
